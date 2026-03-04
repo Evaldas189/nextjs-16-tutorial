@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "honorable-opossum-69.convex.cloud",
+        hostname: "trustworthy-owl-120.eu-west-1.convex.cloud",
         port: "",
       },
     ],
