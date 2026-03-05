@@ -111,6 +111,7 @@ export default function CreateRoute() {
                       accept="image/*"
                       onChange={(e) => {
                         const file = e.target.files?.[0];
+                        if (!file) return;
                         field.onChange(file);
                       }}
                     />
