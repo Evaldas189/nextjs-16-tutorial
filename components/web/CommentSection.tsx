@@ -63,7 +63,7 @@ export function CommentSection(props: {
             control={form.control}
             render={({ field, fieldState }) => (
               <Field>
-                <FieldLabel>Full Name</FieldLabel>
+                <FieldLabel>Create a comment:</FieldLabel>
                 <Textarea
                   aria-invalid={fieldState.invalid}
                   placeholder="Share your thoughts.."
